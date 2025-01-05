@@ -1,4 +1,5 @@
 {
+  "type": "inject-config",
   "config": {
     "namespace": "queue",
     "key": ["connections", "db"],
