@@ -1,0 +1,7 @@
+{
+  "config": {
+    "namespace": "queue",
+    "key": "connections.db",
+    "value": "{\n  driver: 'sqs',\n  listenerType: 'poll',\n  apiVersion: '2012-11-05',\n  credentials: null,\n  prefix: process.env.SQS_PREFIX,\n  queue: process.env.SQS_QUEUE,\n  suffix: '',\n  region: process.env.AWS_REGION,\n}"
+  }
+}
