@@ -16,5 +16,6 @@
     "migrations": {
       "directory": "./database/migrations"
     }
-  }
+  },
+  "env": [["DEFAULT_DB", "sqlite"]]
 }
