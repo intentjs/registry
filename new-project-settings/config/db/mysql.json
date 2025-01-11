@@ -1,14 +1,25 @@
 {
   "type": "inject-config",
-  "dependencies": {},
-  "namespace": "cache",
-  "key": ["stores", "redis"],
+  "dependencies": {
+    "mysql2": ""
+  },
+  "namespace": "db",
+  "key": ["connections", "mysql"],
+  "filename": "config/db.ts",
   "value": {
-    "driver": "redis",
-    "host": "env://REDIS_HOST",
-    "password": "env://REDIS_PASSWORD",
-    "port": "env://REDIS_PORT",
-    "database": "env://REDIS_DB",
-    "prefix": "intentjs_cache"
+    "client": "mysql",
+    "debug": "!!+env://DB_DEBUG",
+    "connection": {
+      "host": "env://DB_HOST",
+      "port": "parseInt(env://DB_PORT)",
+      "user": "env://DB_USER",
+      "password": "env://DB_PASSWORD",
+      "database": "env://DB_DATABASE",
+      "charset": "utf8"
+    },
+    "useNullAsDefault": true,
+    "migrations": {
+      "directory": "./database/migrations"
+    }
   }
 }
