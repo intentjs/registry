@@ -1,0 +1,18 @@
+{
+  "type": "inject-config",
+  "dependencies": {
+    "nodemailer": ""
+  },
+  "namespace": "mailers",
+  "key": ["channels", "smtp"],
+  "value": {
+    "provider": "smtp",
+    "host": "env://MAIL_HOST",
+    "port": "env://MAIL_PORT",
+    "username": "env://MAIL_USER",
+    "password": "env://MAIL_PASSWORD",
+    "ignoreTLS": false,
+    "requireTLS": false,
+    "from": "env://FROM_ADDRESS"
+  }
+}

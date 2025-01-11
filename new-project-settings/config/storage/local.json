@@ -1,0 +1,9 @@
+{
+  "type": "inject-config",
+  "namespace": "filesystem",
+  "key": ["disks", "local"],
+  "value": {
+    "driver": "local",
+    "basePath": "storage/uploads"
+  }
+}

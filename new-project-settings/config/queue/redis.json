@@ -1,10 +1,10 @@
 {
   "type": "inject-config",
   "dependencies": {
-    "@aws-sdk/client-s3": "*"
+    "ioredis": ""
   },
   "namespace": "queue",
-  "key": ["connections", "sqs"],
+  "key": ["connections", "redis"],
   "value": {
     "driver": "redis",
     "listenerType": "poll",

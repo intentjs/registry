@@ -1,0 +1,16 @@
+{
+  "type": "inject-config",
+  "dependencies": {
+    "@aws-sdk/s3-request-presigner": "",
+    "@aws-sdk/client-s3": ""
+  },
+  "namespace": "filesystem",
+  "key": ["disks", "s3"],
+  "value": {
+    "driver": "s3",
+    "region": "env://AWS_REGION",
+    "bucket": "env://S3_BUCKET",
+    "accessKey": "env://AWS_ACCESS_KEY",
+    "secretKey": "env://AWS_SECRET_KEY"
+  }
+}

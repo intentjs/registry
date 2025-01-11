@@ -1,0 +1,13 @@
+{
+  "type": "inject-config",
+  "dependencies": {
+    "resend": "*"
+  },
+  "namespace": "mailers",
+  "key": ["channels", "resend"],
+  "value": {
+    "provider": "resend",
+    "apiKey": "env://RESEND_API_KEY",
+    "from": "env://FROM_ADDRESS"
+  }
+}

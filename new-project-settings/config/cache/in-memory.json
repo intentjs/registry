@@ -1,0 +1,12 @@
+{
+  "type": "inject-config",
+  "dependencies": {
+    "node-cache": "*"
+  },
+  "namespace": "cache",
+  "key": ["stores", "inmemory"],
+  "value": {
+    "driver": "memory",
+    "prefix": ""
+  }
+}

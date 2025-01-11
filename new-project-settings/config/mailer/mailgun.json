@@ -1,0 +1,16 @@
+{
+  "type": "inject-config",
+  "dependencies": {
+    "mailgun.js": "",
+    "form-data": ""
+  },
+  "namespace": "mailers",
+  "key": ["channels", "mailgun"],
+  "value": {
+    "provider": "mailgun",
+    "username": "env://MAILGUN_USERNAME",
+    "key": "env://MAILGUN_API_KEY",
+    "domain": "env://MAILGUN_DOMAIN",
+    "from": "env://FROM_ADDRESS"
+  }
+}
