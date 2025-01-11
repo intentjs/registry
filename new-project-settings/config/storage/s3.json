@@ -5,6 +5,7 @@
     "@aws-sdk/client-s3": ""
   },
   "namespace": "filesystem",
+  "filename": "config/filesystem.ts",
   "key": ["disks", "s3"],
   "value": {
     "driver": "s3",

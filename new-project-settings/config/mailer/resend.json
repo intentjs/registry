@@ -5,6 +5,7 @@
   },
   "namespace": "mailers",
   "key": ["channels", "resend"],
+  "filename": "config/mailer.ts",
   "value": {
     "provider": "resend",
     "apiKey": "env://RESEND_API_KEY",

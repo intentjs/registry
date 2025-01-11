@@ -5,6 +5,7 @@
   },
   "namespace": "queue",
   "key": ["connections", "redis"],
+  "filename": "config/queue.ts",
   "value": {
     "driver": "redis",
     "listenerType": "poll",

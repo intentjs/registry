@@ -5,6 +5,7 @@
   },
   "namespace": "cache",
   "key": ["stores", "redis"],
+  "filename": "config/cache.ts",
   "value": {
     "driver": "redis",
     "host": "env://REDIS_HOST",

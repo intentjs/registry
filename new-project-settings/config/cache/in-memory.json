@@ -4,7 +4,8 @@
     "node-cache": "*"
   },
   "namespace": "cache",
-  "key": ["stores", "inmemory"],
+  "key": ["stores", "memory"],
+  "filename": "config/cache.ts",
   "value": {
     "driver": "memory",
     "prefix": ""

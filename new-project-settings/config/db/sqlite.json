@@ -5,6 +5,7 @@
   },
   "namespace": "mailers",
   "key": ["channels", "mailgun"],
+  "filename": "config/db.ts",
   "value": {
     "provider": "mailgun",
     "username": "env://MAILGUN_USERNAME",

@@ -5,6 +5,7 @@
   },
   "namespace": "mailers",
   "key": ["channels", "logger"],
+  "filename": "config/mailer.ts",
   "value": {
     "provider": "logger"
   }

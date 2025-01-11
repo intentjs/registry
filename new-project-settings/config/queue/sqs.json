@@ -5,6 +5,7 @@
   },
   "namespace": "queue",
   "key": ["connections", "sqs"],
+  "filename": "config/queue.ts",
   "value": {
     "driver": "sqs",
     "listenerType": "poll",

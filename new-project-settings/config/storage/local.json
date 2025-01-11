@@ -1,6 +1,8 @@
 {
   "type": "inject-config",
   "namespace": "filesystem",
+  "imports": ["import "],
+  "filename": "config/filesystem.ts",
   "key": ["disks", "local"],
   "value": {
     "driver": "local",

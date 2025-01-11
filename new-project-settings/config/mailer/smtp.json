@@ -5,6 +5,7 @@
   },
   "namespace": "mailers",
   "key": ["channels", "smtp"],
+  "filename": "config/mailer.ts",
   "value": {
     "provider": "smtp",
     "host": "env://MAIL_HOST",

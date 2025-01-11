@@ -5,6 +5,7 @@
   },
   "namespace": "queue",
   "key": ["connections", "db"],
+  "filename": "config/queue.ts",
   "value": {
     "driver": "db",
     "listenerType": "poll",
