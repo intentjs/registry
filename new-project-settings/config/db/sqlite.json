@@ -6,6 +6,12 @@
   "namespace": "db",
   "key": ["connections", "sqlite"],
   "filename": "config/db.ts",
+  "imports": [
+    {
+      "namedImports": ["toBoolean"],
+      "moduleSpecifier": "@intentjs/core"
+    }
+  ],
   "value": {
     "client": "better-sqlite3",
     "debug": "!!+env://DB_DEBUG",
