@@ -6,13 +6,14 @@
   "namespace": "queue",
   "key": ["connections", "sqs"],
   "value": {
-    "driver": "sqs",
+    "driver": "redis",
     "listenerType": "poll",
-    "apiVersion": "2012-11-05",
-    "credentials": null,
-    "prefix": "env://SQS_PREFIX",
-    "queue": "env://SQS_QUEUE",
-    "suffix": "",
-    "region": "env://AWS_REGION"
+    "host": "env://REDIS_HOST",
+    "port": "env://REDIS_PORT",
+    "queue": "env://QUEUE_NAME",
+    "username": "env://REDIS_USERNAME",
+    "password": "env://REDIS_PASSWORD",
+    "prefix": "",
+    "database": 0
   }
 }

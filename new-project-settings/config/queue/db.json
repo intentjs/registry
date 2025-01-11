@@ -8,11 +8,7 @@
   "value": {
     "driver": "db",
     "listenerType": "poll",
-    "apiVersion": "2012-11-05",
-    "credentials": null,
-    "prefix": "env://SQS_PREFIX",
-    "queue": "env://SQS_QUEUE",
-    "suffix": "",
-    "region": "env://AWS_REGION"
+    "table": "intent_jobs",
+    "queue": "default"
   }
 }
