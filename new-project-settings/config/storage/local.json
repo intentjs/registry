@@ -7,5 +7,6 @@
   "value": {
     "driver": "local",
     "basePath": "storage/uploads"
-  }
+  },
+  "env": [["DEFAULT_STORAGE", "local"]]
 }

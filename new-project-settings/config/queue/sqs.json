@@ -15,5 +15,6 @@
     "queue": "env://SQS_QUEUE",
     "suffix": "",
     "region": "env://AWS_REGION"
-  }
+  },
+  "env": [["DEFAULT_QUEUE", "sqs"]]
 }

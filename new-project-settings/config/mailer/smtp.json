@@ -15,5 +15,6 @@
     "ignoreTLS": false,
     "requireTLS": false,
     "from": "env://FROM_ADDRESS"
-  }
+  },
+  "env": [["DEFAULT_MAILER", "smtp"]]
 }

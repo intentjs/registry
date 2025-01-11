@@ -13,5 +13,6 @@
     "bucket": "env://S3_BUCKET",
     "accessKey": "env://AWS_ACCESS_KEY",
     "secretKey": "env://AWS_SECRET_KEY"
-  }
+  },
+  "env": [["DEFAULT_STORAGE", "s3"]]
 }

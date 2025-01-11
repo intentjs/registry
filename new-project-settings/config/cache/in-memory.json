@@ -9,5 +9,6 @@
   "value": {
     "driver": "memory",
     "prefix": ""
-  }
+  },
+  "env": [["DEFAULT_CACHE", "memory"]]
 }

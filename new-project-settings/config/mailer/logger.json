@@ -1,12 +1,10 @@
 {
   "type": "inject-config",
-  "dependencies": {
-    "@aws-sdk/client-s3": "*"
-  },
   "namespace": "mailers",
   "key": ["channels", "logger"],
   "filename": "config/mailer.ts",
   "value": {
     "provider": "logger"
-  }
+  },
+  "env": [["DEFAULT_MAILER", "logger"]]
 }

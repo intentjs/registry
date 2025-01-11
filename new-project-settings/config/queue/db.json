@@ -1,8 +1,5 @@
 {
   "type": "inject-config",
-  "dependencies": {
-    "@aws-sdk/client-s3": "*"
-  },
   "namespace": "queue",
   "key": ["connections", "db"],
   "filename": "config/queue.ts",
@@ -11,5 +8,6 @@
     "listenerType": "poll",
     "table": "intent_jobs",
     "queue": "default"
-  }
+  },
+  "env": [["DEFAULT_QUEUE", "db"]]
 }

@@ -16,5 +16,6 @@
     "password": "env://REDIS_PASSWORD",
     "prefix": "",
     "database": 0
-  }
+  },
+  "env": [["DEFAULT_QUEUE", "redis"]]
 }

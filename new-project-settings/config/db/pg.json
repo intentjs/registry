@@ -1,8 +1,6 @@
 {
   "type": "inject-config",
-  "dependencies": {
-    "ioredis": "*"
-  },
+  "dependencies": {},
   "namespace": "cache",
   "key": ["stores", "redis"],
   "value": {

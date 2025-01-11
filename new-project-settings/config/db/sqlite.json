@@ -1,8 +1,6 @@
 {
   "type": "inject-config",
-  "dependencies": {
-    "@aws-sdk/client-s3": ""
-  },
+  "dependencies": {},
   "namespace": "mailers",
   "key": ["channels", "mailgun"],
   "filename": "config/db.ts",

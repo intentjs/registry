@@ -13,5 +13,6 @@
     "port": "env://REDIS_PORT",
     "database": "env://REDIS_DB",
     "prefix": "intentjs_cache"
-  }
+  },
+  "env": [["DEFAULT_CACHE", "redis"]]
 }
